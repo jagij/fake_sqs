@@ -1,4 +1,4 @@
-# Fake SQS [![Build Status](https://api.travis-ci.org/iain/fake_sqs.svg?branch=master)](http://travis-ci.org/iain/fake_sqs) [![Gem Version](https://badge.fury.io/rb/fake_sqs.svg)](https://badge.fury.io/rb/fake_sqs)
+# Fake SQS
 
 Fake SQS is a lightweight server that mocks the Amazon SQS API.
 
@@ -7,6 +7,8 @@ making calls to Amazon, which not only requires a network connection, but also c
 money.
 
 Many features are supported and if you miss something, open a pull.
+
+This is a fork from (lukfugl/fake_sqs)[https://github.com/lukfugl/fake_sqs], which includes support for long-polling.
 
 ## Installation
 
