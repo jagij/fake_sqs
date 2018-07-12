@@ -8,7 +8,7 @@ money.
 
 Many features are supported and if you miss something, open a pull.
 
-This is a fork from (lukfugl/fake_sqs)[https://github.com/lukfugl/fake_sqs], which includes support for long-polling.
+This is a fork from [lukfugl/fake_sqs](https://github.com/lukfugl/fake_sqs), which includes support for long-polling.
 
 ## Installation
 
