@@ -26,3 +26,11 @@ fake_sqs --database /path/to/database.yml
 bundle install
 rake
 ```
+
+## Deploy docker to dockerhub
+```
+docker build --rm -t jagij/fake-sqs -f docker/Dockerfile .
+docker login
+docker tag jagij/fake-sqs jagij/fake-sqs:latest
+docker push jagij/fake-sqs:latest
+```

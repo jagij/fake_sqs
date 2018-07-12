@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Provides a fake SQS server that you can run locally to test against}
   gem.homepage      = "https://github.com/iain/fake_sqs"
 
-  gem.files         = `git ls-files`.split($/)
+  gem.files         = `find .`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
